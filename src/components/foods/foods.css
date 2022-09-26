@@ -1,0 +1,63 @@
+/* Css blogs section */
+
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+.blogs h2{
+    font-size: 45px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #661a2c;
+    font-family: 'Tajawal';
+    line-height: 50px;
+    width: 100%;
+
+}
+.blogs p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'tajawal';
+    margin-top: 15px;
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.blogs .box img{
+    max-width: 100%;
+}
+.blogs .box h5{
+    color: #a82d49;
+    font-family: 'Tajawal';
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: 'Tajawal';
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.blogs .box h6{
+    color: #661a2c;
+    font-size: 25px;
+    font-family: 'Tajawal';
+}

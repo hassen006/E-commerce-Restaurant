@@ -1,0 +1,60 @@
+header{
+    background: url("../../assets/3.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+
+}
+
+header .row{
+    margin: 70px 0px;
+    
+}
+header h2{
+    color :#a82d49;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    width: 80%;
+    
+}
+
+header p{
+    color: #333;
+    font-family: 'Tajawal', sans-serif;
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+header button{
+    width: 140px;
+    height: 50px;
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    margin:20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+header button:last-of-type{
+    background-color: #fff;
+    color: #000;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+header button:first-of-type:hover{
+    background-color: #fff;
+    color: #a82d49;
+}
+header button:last-of-type:hover{
+    background-color: #a82d49;
+    color: #fff;
+}

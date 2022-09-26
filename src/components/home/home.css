@@ -1,0 +1,307 @@
+
+/* css of Pride & ingredients*/
+
+.pride, .ingredients{
+    background-color: transparent !important;
+    padding: 25px 25px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.pride img, .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pride  h2, .ingredients  h2, .paralex h2 {
+
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 10px;
+    color: #a82d49;
+    font-family: 'Tajawal';
+    line-height: 50px;
+    width: 80%;
+
+}
+
+.pride h6, .ingredients h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'tajawal';
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.pride p, .ingredients p, .paralex p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'tajawal';
+    margin-top: 15px;
+}
+
+.pride button, .ingredients button, .blogs button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pride button a, .ingredients button a, .blogs button a{
+    display: block;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.pride button:hover a ,.ingredients button:hover a, .blogs button:hover a{
+    color: #a82d49;
+    transition: .2s ease;
+}
+.pride button:hover, .ingredients button:hover, .blogs button:hover{
+    background-color: #fff;
+}
+
+/* CSS ingredients section */
+
+.ingredients ul li{
+    list-style-type: none ;
+    font-family: 'Tajawal';
+    color: #333;
+    margin-top: 10px;
+
+}
+.ingredients ul {
+    padding: 0px;
+}
+.ingredients ul li .bi{
+    color: #a82d49;
+}
+
+/* Css paralex section */
+
+.paralex{
+    background: url('../../assets/1--zWGC9w.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0px;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0px;
+}
+.paralex p{
+    color: #444;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+.paralex a{
+    color: #a82d49;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: 'Tajawal';
+    text-decoration: none !important;
+}
+
+
+/* css slider section */
+
+.sliderx{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 5Opx 0px;
+    margin: 50px 0px;
+}
+.sliderx .carousel{
+    background-color: #fff;
+    margin: 40px 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0px;
+}
+.sliderx h2{
+    color: #fff ;
+    text-align: center ;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Tajawal';
+    line-height: 50px;
+    width: 100%;
+}
+.sliderx img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+.sliderx .carousel-caption p{
+    color: #333;
+    font-size: 17px;
+    line-height: 30px;
+}
+.sliderx .carousel-caption span{
+    color: #661a2c;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.sliderx .carousel-indicators{
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 15;
+    justify-content: center;
+    list-style: none; 
+}
+.sliderx .carousel-indicators button{
+    
+    background-color: #a82d49;
+}
+
+/* CSS FAQ section */
+.FAQ {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.FAQ  h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #9c334c;
+   
+    line-height: 50px;
+    text-align: center;
+
+}
+
+.FAQ h5{
+    
+    color: #6d2435;
+    font-family: 'tajawal';
+    font-weight: bold;
+    letter-spacing: .5px;
+
+}
+.FAQ p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'tajawal';
+    margin-top: 15px;
+}
+
+/* Css newsletter */
+.newsletter{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* CSS parallax session */
+
+.parallax-content {
+	padding: 70px 0;
+	position: relative;
+    margin-top: 50px;
+}
+.parallax-content .container {
+	position: relative;
+	z-index: 55;
+}
+
+.parallax {
+	background:
+	url(../../assets/2.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+.parallax-content h4 {
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	text-align:left;
+	letter-spacing: 0.2px;
+}
+
+.btn.btn-primary {
+	background: #a82d49;
+	border: 3px solid #a82d49;
+	color: #fff;
+}
+
+.btn.btn-primary:hover {
+	border: 3px solid #a82d49 !important;
+	background: transparent;
+	color: #a82d49;
+}
+.overlay {
+	background: #151515;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*  FOOTER */
+footer {
+	background: #a82d49;
+	padding: 80px 0 0;
+    padding: 60px 0 30px;
+}
+
+.footer2 .footer-social a {
+	font-size: 25px;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+.footer2 .footer-social {
+	padding-left: 0;
+	margin-top: 30px;
+    padding-top: 30px;
+}
+.footerP a{
+	color:#fff;
+	padding: 0 30px 0 0;
+}
+
+.footerP a:hover{
+	color:#000;
+	text-decoration: underline;
+}
+.footer-social {
+    padding-left: 0;
+    margin: 0 auto;
+    display: table;
+    margin-top: 15px !important;
+    text-align: center;
+}
+
+.footer-copy {
+	background: #a82d49;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: 0.2px;
+}
